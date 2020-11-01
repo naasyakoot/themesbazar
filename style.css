@@ -3,3 +3,95 @@
 	background: #4cae4e;
 
 }
+
+
+@font-face {
+ font-family:'SolaimanLipiNormal';
+ src:url('https://themesbazar.com/wp-content/themes/ThemesbazarTheme/fonts/solaiman-lipi.eot');
+ src:url('https://themesbazar.com/wp-content/themes/ThemesbazarTheme/fonts/solaiman-lipi.eot') format('embedded-opentype'),
+ url('https://themesbazar.com/wp-content/themes/ThemesbazarTheme/fonts/solaiman-lipi.woff') format('woff'),
+ url('https://themesbazar.com/wp-content/themes/ThemesbazarTheme/fonts/solaiman-lipi.ttf') format('truetype'),
+ url('https://themesbazar.com/wp-content/themes/ThemesbazarTheme/fonts/solaiman-lipi.svg#SolaimanLipiNormal') format('svg');
+ font-weight:400;
+ font-style:normal
+}
+.alignleft {
+ float:left;
+ margin-right:15px
+}
+.alignright {
+ float:right;
+ margin-left:15px
+}
+.aligncenter {
+ display:block;
+ margin:0 auto 15px
+}
+a:focus {
+ outline:0 solid
+}
+img {
+ max-width:100%;
+ height:auto
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+ margin:0 0 15px;
+ font-weight:400
+}
+body {
+ font-family:SolaimanLipiNormal !important;
+ background:#efefef
+}
+a:hover {
+ text-decoration:none
+}
+.header-address {
+ font-size:18px;
+ color:#fff
+}
+
+
+.top-header {
+ background:#4cae4e;
+ padding:8px 10px
+}
+.social_icons {
+ text-align:right;
+ margin-top:-3px
+}
+.social_icons ul {
+ margin:0;
+ padding:0;
+ list-style:none
+}
+.social_icons li {
+ display:inline-block;
+ margin-right:10px;
+ margin-top:2px
+}
+.social_icons li a {
+ display:inline-block;
+ width:25px;
+ height:25px;
+ text-align:center;
+ color:#fff;
+ border-radius:50%;
+ transition:.8s;
+ font-size:14px
+}
+.social_icons li a :hover {
+ background:#fff;
+ border-radius:50%;
+ color:#4cae4e;
+ width:25px;
+ height:25px;
+ transition:.8s
+}
+.social_icons i {
+ line-height:25px
+}
