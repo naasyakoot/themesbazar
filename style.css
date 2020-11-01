@@ -568,7 +568,7 @@ form.example input:focus {
  margin-top:2px
 }
 .speech-bg {
- background-image:url(/wp-content/themes/ThemesbazarTheme/assets/img/bg.jpg);
+ background-image:url("https://themesbazar.com/wp-content/themes/ThemesbazarTheme/assets/img/bg.jpg");
  background-size:cover;
  background-position:center;
  background-color:#ddd;
