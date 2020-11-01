@@ -10,10 +10,10 @@
 
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
+ <!-- Owl Stylesheets -->
+    <link rel="stylesheet" href="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/assets/owl.carousel.min.css">
+    <!-- <link rel="stylesheet" href="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/assets/owl.theme.default.min.css"> -->
 
-
-
-<link rel="stylesheet" href="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/assets/owl.carousel.min.css">
 
 
 <link rel="stylesheet" href="style.css">
@@ -74,7 +74,8 @@
                  <!--================================
                          home-silder-section-start
                 ===============================--> 
-        <div class="homepage-section">
+
+                 <div class="homepage-section">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
@@ -85,7 +86,7 @@
                                 <div class="row">
                                     <div class="col-md-5 col-sm-5">
                                        <div class="home-silde-image">
-                                            <img  src="https://themesbazar.com/wp-content/themes/ThemesbazarTheme/assets/img/newspaper.png" alt="Online NewsPaper WordPress Theme" title="Online NewsPaper WordPress Theme">
+                                            <img src="https://themesbazar.com/wp-content/themes/ThemesbazarTheme/assets/img/newspaper.png" alt="Online NewsPaper WordPress Theme" title="Online NewsPaper WordPress Theme">
                                        </div>
                                     </div>
 
@@ -105,7 +106,7 @@
                                 <div class="row">
                                     <div class="col-md-5 col-sm-5">
                                        <div class="home-silde-image">
-                                            <img  src="https://themesbazar.com/wp-content/themes/ThemesbazarTheme/assets/img/php-newspaper.png" alt="">
+                                            <img src="https://themesbazar.com/wp-content/themes/ThemesbazarTheme/assets/img/php-newspaper.png" alt="">
                                        </div>
                                     </div>
 
@@ -192,6 +193,7 @@
             </div>
         </div>          
 
+
         
       
 	          <!--================================
@@ -202,7 +204,7 @@
                 
                  
                
-               
+               <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus recusandae facere temporibus a, maxime cum, laboriosam sed reiciendis sint magni, repudiandae! Ea architecto veniam eaque quod labore molestias obcaecati sapiente.</div>
                
                
                
@@ -221,26 +223,58 @@
 
 
 
+
+
 <script src="src/main.js"></script>
 
 <script src="src/logoandreg.js"></script>
 
 <script src="src/menu.js"></script>
 
-<script>
+<script src="src/homeslide.js"></script>
+
+<!-- <script>
 	    $(document).ready(function() {
       $(".homepage-slides").owlCarousel({
 
 
-      	autoplay: true,
+      	autoplay : 3000,
 
        items : 1, 
 
            lazyLoad : true,
-    navigation : true
+    navigation : true,
+    pagination : true,
+
 
       	});
     });
+</script> -->
+
+
+
+<script>
+	    
+
+
+	     $(document).ready(function() {
+      $(".owl-carousel").owlCarousel({
+
+//navigation : true, // Show next and prev buttons
+        loop: true,
+           
+        items : 1,
+        autoplay:true,
+    lazyLoad : true,
+    navigation : true
+
+
+      	});
+    });
+
 </script>
+
+
+
 </body>
 </html>
