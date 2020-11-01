@@ -7,10 +7,10 @@
 
 @font-face {
  font-family:'SolaimanLipiNormal';
- src:url('https://themesbazar.com/wp-content/themes/ThemesbazarTheme/fonts/solaiman-lipi.eot');
- src:url('https://themesbazar.com/wp-content/themes/ThemesbazarTheme/fonts/solaiman-lipi.eot') format('embedded-opentype'),
- url('https://themesbazar.com/wp-content/themes/ThemesbazarTheme/fonts/solaiman-lipi.woff') format('woff'),
- url('https://themesbazar.com/wp-content/themes/ThemesbazarTheme/fonts/solaiman-lipi.ttf') format('truetype'),
+ src:url('fonts/sulaiman/solaiman-lipi.eot');
+ src:url('fonts/sulaiman/solaiman-lipi.eot') format('embedded-opentype'),
+ url('fonts/sulaiman/solaiman-lipi.woff') format('woff'),
+ url('fonts/sulaiman/solaiman-lipi.ttf') format('truetype'),
  url('https://themesbazar.com/wp-content/themes/ThemesbazarTheme/fonts/solaiman-lipi.svg#SolaimanLipiNormal') format('svg');
  font-weight:400;
  font-style:normal
