@@ -95,3 +95,68 @@ a:hover {
 .social_icons i {
  line-height:25px
 }
+
+
+
+.logo-reg-section {
+ background:#fff
+}
+.logo img {
+ width:100%;
+ height:auto;
+ padding:10px 0
+}
+.support {
+ margin-top:23px;
+ margin-left:39px
+}
+.support i.fa {
+ float:left;
+ background:#4cae4e;
+ width:21%;
+ height:49px;
+ text-align:center;
+ line-height:50px;
+ margin-right:10px;
+ border-radius:5px;
+ font-size:25px;
+ color:#fff
+}
+.support h4 {
+ font-size:18px
+}
+.support h4 a {
+ color:#313632;
+ text-decoration:none
+}
+.support h5 {
+ font-size:14px;
+ margin-top:-10px
+}
+.support h5 a {
+ color:#605e5e;
+ text-decoration:none
+}
+.english-verson {
+ margin-top:22px
+}
+.english-verson a {
+ background:red;
+ padding:10px;
+ display:inline-block;
+ color:#fff;
+ font-size:18px;
+ font-weight:700;
+ text-decoration:none;
+ border-radius:5px;
+ box-shadow:0 1px 2px #7e7c7c;
+ transition:.3s
+}
+.english-verson a:hover {
+ background:#4cae4e
+}
+.sticky {
+ position:fixed;
+ top:0;
+ width:100%
+}
