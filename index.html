@@ -30,14 +30,17 @@
 
                 <div class="container">
                     <div class="row">
-                        <div v-for="htopdataset in headertopdata" class="col-md-10 col-sm-10">
-<div class="header-address">
+                        <div   class="col-md-10 col-sm-10">
+<div v-for="htdatasets in headertopdata" class="header-address">
                             <i class="fa fa-phone">
                                 
-                            </i> {{ headertopdata.cellnum }}
+                            </i>  {{ htdatasets.cellnum }}
                             <i class="fa fa-envelope-o"></i> 
-                            themesbazar@gmail.com
-                        </div>                        </div>
+
+                            {{ htdatasets.email }}
+                            
+                        </div>                        
+                    </div>
                         <div class="col-md-2 col-sm-2">
 <div class="social_icons" >
                             <ul>

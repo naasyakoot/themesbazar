@@ -1,12 +1,10 @@
 var headertopdata = [
 
   {
-    'iconname': 'fa fa-phone',
-    'cellnum': ' +088 01732667364 (Call, Imo & Whats App), +088 01972667364 '
-  },
-
-  {
-    'iconname': 'fa fa-envelope-o',
+    
+    'cellnum': ' +088 01732667364 (Call, Imo & Whats App), +088 01972667364 ',
+  
+    
     'email': 'themesbazar@gmail.com'
   }
 
@@ -19,6 +17,8 @@ var data = function data() {
 				name: "SALAMOON ALAIKOOM",
 				name2: "SALAMOON SALAMOON",
 				headertopdata
+				
+				
 				
 				
 			}
