@@ -1,5 +1,16 @@
 
-var menuitems =  [{ message: 'msg1' }, { message: 'msg2' }];
+var menuitems = [{
+    'title': 'Home',
+    'id': 'home'
+  },
+  {
+    'title': 'About',
+    'id': 'about'
+  },
+  {
+    'title': 'Contact',
+    'id': 'contact'
+  }];
 /*
 var menulinks = [
 
