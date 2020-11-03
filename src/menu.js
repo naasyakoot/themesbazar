@@ -7,6 +7,7 @@ var data = function data() {
         name: "SALAMOON ALAIKOOM",
         name2: "SALAMOON SALAMOON",
         some: "thing",
+        somes: ['ananas','melon','date']
 
       }
 
