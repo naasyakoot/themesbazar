@@ -1,24 +1,17 @@
 
 var menuitems = [{
-    'title': 'Home',
-    'id': 'home'
+    'name': 'নিউজপেপার',
+    'link': 'https://themesbazar.com/category/newspaperthemes/'
   },
   {
-    'title': 'About',
-    'id': 'about'
+    'name': 'টিভি থিম',
+    'link': 'https://themesbazar.com/category/tvthemes/'
   },
   {
-    'title': 'Contact',
-    'id': 'contact'
+    'name': 'প্রতিষ্ঠান',
+    'link': '#'
   }];
-/*
-var menulinks = [
 
-
-'https://themesbazar.com/category/newspaperthemes/'
-
-
-]*/
 
 
 var data = function data() {
