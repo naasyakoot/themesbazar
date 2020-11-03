@@ -171,7 +171,7 @@ a:hover {
  background-color:#136815
 }
 .homepage-section {
- background-image:url(/wp-content/themes/ThemesbazarTheme/assets/img/green-gradient-bg-1.png);
+ background-image:url(https://themesbazar.com/wp-content/themes/ThemesbazarTheme/assets/img/green-gradient-bg-1.png);
  background-size:cover;
  background-position:center;
  background-attachment:fixed;
@@ -270,7 +270,7 @@ a:hover {
  padding-bottom:30px
 }
 .search-section {
- background-image:url(/wp-content/themes/ThemesbazarTheme/assets/img/bg.jpg);
+ background-image:url(https://themesbazar.com/wp-content/themes/ThemesbazarTheme/assets/img/bg.jpg);
  background-size:cover;
  background-position:center;
  background-color:#69af07;
@@ -549,7 +549,7 @@ form.example input:focus {
  margin-top:2px
 }
 .speech-bg {
- background-image:url(/wp-content/themes/ThemesbazarTheme/assets/img/bg.jpg);
+ background-image:url(https://themesbazar.com/wp-content/themes/ThemesbazarTheme/assets/img/bg.jpg);
  background-size:cover;
  background-position:center;
  background-color:#ddd;
@@ -591,7 +591,7 @@ form.example input:focus {
  }
 }
 .notic-section {
- background-image:url(/wp-content/themes/ThemesbazarTheme/assets/img/green-gradient-bg-1.png);
+ background-image:url(https://themesbazar.com/wp-content/themes/ThemesbazarTheme/assets/img/green-gradient-bg-1.png);
  background-size:cover;
  background-color:#ddd;
  background-position:center;
@@ -608,7 +608,7 @@ form.example input:focus {
  color:#fff
 }
 .footer-section {
- background-image:url(/wp-content/themes/ThemesbazarTheme/assets/img/bg.jpg);
+ background-image:url(https://themesbazar.com/wp-content/themes/ThemesbazarTheme/assets/img/bg.jpg);
  background-size:cover;
  background-position:center;
  background-attachment:fixed;
