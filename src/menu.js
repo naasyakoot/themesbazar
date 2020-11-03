@@ -1,9 +1,13 @@
+
+
 var data = function data() {
 
       return {
 
         name: "SALAMOON ALAIKOOM",
-        name2: "SALAMOON SALAMOON"
+        name2: "SALAMOON SALAMOON",
+        some: "thing"
+
       }
 
 
@@ -11,9 +15,7 @@ var data = function data() {
 
 
     var template = `
-     <div class="container d-flex flex-column flex-md-row justify-content-between">
-    
-    <a class="py-2" href="https://themesbazar.com"><i class="fa fa-home" style="font-size:20px"></i></a>
+
     <a class="py-2 d-none d-md-inline-block" href="#">নিউজপেপার</a>
     <a class="py-2 d-none d-md-inline-block" href="#">টিভি থিম</a>
     <a class="py-2 d-none d-md-inline-block" href="#">প্রতিষ্ঠান</a>
@@ -28,7 +30,7 @@ var data = function data() {
     <a class="py-2 d-none d-md-inline-block" href="#">ভিডিও টিউটোরিয়াল</a>
 
 
-  </div>
+  
 
             `;
 
@@ -41,6 +43,6 @@ var app = Vue.createApp({ data, template });
 
   var sets = { data, template };
 
-  Vue.createApp(sets).mount('.main-menu');
+  Vue.createApp(sets).mount('.mmin');
 
   // console.log(Vue);
