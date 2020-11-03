@@ -1,20 +1,13 @@
 
-var menuitems = [
+var menuitems =  [{ message: 'msg1' }, { message: 'msg2' }];
+/*
+var menulinks = [
 
-    'নিউজপেপার',
-    'টিভি থিম',
-    'প্রতিষ্ঠান',
-    'ই-পেপার',
-    'ই-কমার্স',
-    'বিজনেস',
-    'ব্লগ',
-    'প্লাগিন',
-    'পিএইচপি সাইট',
-    'পার্সোনাল',
-    'অন্যান্য থিম',
-    'ভিডিও টিউটোরিয়াল',
 
-]
+'https://themesbazar.com/category/newspaperthemes/'
+
+
+]*/
 
 
 var data = function data() {
@@ -25,7 +18,9 @@ var data = function data() {
         name2: "SALAMOON SALAMOON",
         some: "thing",
         homepage: 'https://themesbazar.com',
-        menu: menuitems
+        
+
+        items: menuitems
 
       }
 
