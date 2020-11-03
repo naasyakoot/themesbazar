@@ -20,7 +20,7 @@ var data = function data() {
         homepage: 'https://themesbazar.com',
         
 
-        items: menuitems
+        menulists : menuitems
 
       }
 
