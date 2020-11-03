@@ -43,7 +43,7 @@
 
 
                                 <li v-for="item in arrNav">
-    <a>{{ item.title}}</a>
+    <a v-bind:href="item.id" >{{ item.title}}</a>
 </li>
                                 
                             </ul>
