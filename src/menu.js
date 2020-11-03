@@ -104,19 +104,6 @@ var data = function data() {
 
     };
 
-
-
-    var template = ``;
-
-/*
-var app = Vue.createApp({ data, template });
-
-  app.mount('#vue-h1');
-
-  */
-
   var sets = { data };
 
   Vue.createApp(sets).mount('.mmin');
-
-  // console.log(Vue);

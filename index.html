@@ -30,9 +30,13 @@
 
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-10 col-sm-10">
+                        <div v-for="htopdataset in headertopdata" class="col-md-10 col-sm-10">
 <div class="header-address">
-                            <i class="fa fa-phone"></i> +088 01732667364 (Call, Imo & Whats App), +088 01972667364 <i class="fa fa-envelope-o"></i> themesbazar@gmail.com
+                            <i class="fa fa-phone">
+                                
+                            </i> {{ headertopdata.cellnum }}
+                            <i class="fa fa-envelope-o"></i> 
+                            themesbazar@gmail.com
                         </div>                        </div>
                         <div class="col-md-2 col-sm-2">
 <div class="social_icons" >
@@ -42,9 +46,7 @@
                                 <li><a href="https://www.youtube.com/themesbazar" target="_blank" title="youtube"><i class="fa fa-youtube"></i></a></li>
 
 
-                                <li v-for="item in arrNav">
-    <a v-bind:href="item.id" >{{ item.title}}</a>
-</li>
+                              
                                 
                             </ul>
                         </div>                        </div>
@@ -90,7 +92,7 @@
             <a  class="py-2 d-none d-md-inline-block" v-for="things in menulists" v-bind:href="things.link">
 
             {{ things.name }}
-            
+
             </a>
     
     

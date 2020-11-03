@@ -1,5 +1,16 @@
+var headertopdata = [
 
+  {
+    'iconname': 'fa fa-phone',
+    'cellnum': ' +088 01732667364 (Call, Imo & Whats App), +088 01972667364 '
+  },
 
+  {
+    'iconname': 'fa fa-envelope-o',
+    'email': 'themesbazar@gmail.com'
+  }
+
+  ];
 
 var data = function data() {
 
@@ -7,37 +18,18 @@ var data = function data() {
 
 				name: "SALAMOON ALAIKOOM",
 				name2: "SALAMOON SALAMOON",
-				arrNav: [{
-    'title': 'Home',
-    'id': 'home'
-  },
-  {
-    'title': 'About',
-    'id': 'about'
-  },
-  {
-    'title': 'Contact',
-    'id': 'contact'
-  }]
+				headertopdata
+				
+				
 			}
 
-			
+
 
 
 		};
-
-
-		var template = `
 		
 
-            `;
 
-/*
-var app = Vue.createApp({ data, template });
-
-	app.mount('#vue-h1');
-
-	*/
 
 	var sets = { data };
 
