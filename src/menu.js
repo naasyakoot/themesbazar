@@ -13,8 +13,75 @@ var menuitems = [
 
   {
     'name': 'প্রতিষ্ঠান',
-    'link': '#'
-  }
+    'link': 'https://themesbazar.com/category/institute/'
+  },
+
+  {
+    'name': 'ই-পেপার',
+    'link': 'https://themesbazar.com/category/epaperthemes/'
+  },
+
+  
+
+  {
+    'name': 'ই-কমার্স',
+    'link': 'https://themesbazar.com/category/ecommercethemes/'
+  },
+
+    
+  {
+    'name': 'বিজনেস',
+    'link': 'https://themesbazar.com/category/businessthemes/'
+  },
+
+  
+
+  {
+    'name': 'ব্লগ',
+    'link': 'https://themesbazar.com/category/blogtheme/'
+  },
+
+  
+
+  {
+    'name': 'প্লাগিন',
+    'link': 'https://themesbazar.com/category/plugin/'
+  },
+
+  
+
+  {
+    'name': 'পিএইচপি সাইট',
+    'link': 'https://themesbazar.com/category/phpscripts/'
+  },
+
+
+
+  
+
+  {
+    'name': 'পার্সোনাল',
+    'link': 'https://themesbazar.com/category/pesonalthemes/'
+  },
+
+  
+
+  {
+    'name': 'অন্যান্য থিম',
+    'link': 'https://themesbazar.com/category/othersthemes/'
+  },
+
+  
+
+  {
+    'name': 'ভিডিও টিউটোরিয়াল',
+    'link': 'https://themesbazar.com/videotutorial/'
+  },
+
+  
+
+
+  
 
   ];
 
