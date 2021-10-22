@@ -20,9 +20,9 @@ var data = function data() {
                         <div class="col-md-2 col-sm-2">
 <div class="social_icons" >
 							<ul>
-								<li><a href="https://www.facebook.com/themesbazar/" target="_blank" title="facebook"><i class="fa fa-facebook"></i></a></li>
-								<li><a href="https://twitter.com/themesbazar" target="_blank" title="twitter"><i class="fa fa-twitter"></i></a></li>
-								<li><a href="https://www.youtube.com/themesbazar" target="_blank" title="youtube"><i class="fa fa-youtube"></i></a></li>
+								<li><a href="https://www.facebook.com/seum11/" target="_blank" title="facebook"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="#" target="_blank" title="twitter"><i class="fa fa-twitter"></i></a></li>
+								<li><a href="#" target="_blank" title="youtube"><i class="fa fa-youtube"></i></a></li>
 								
 								
 							</ul>
